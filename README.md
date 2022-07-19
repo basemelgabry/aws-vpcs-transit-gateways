@@ -7,8 +7,11 @@ Create multi VPCs with EC2 - and use Transit gateways to connection
 # Create Vpc "33"
 
 > cd vpc-33
-> terraform init 
+
+> terraform init
+
 > terraform plan
+
 > terraform apply -auto-approve
 
 # output
@@ -18,8 +21,11 @@ Create multi VPCs with EC2 - and use Transit gateways to connection
 # Create Vpc "66"
 
 > cd vpc-66
-> terraform init 
+
+> terraform init
+
 > terraform plan
+
 > terraform apply -auto-approve
 
 # output
@@ -30,15 +36,21 @@ Create multi VPCs with EC2 - and use Transit gateways to connection
 # Create EC2 "33"
 
 > cd ec2-33
+
 > terraform init 
+
 > terraform plan
+
 > terraform apply -auto-approve
 
 # Create EC2 "66"
 
 > cd ec2-66
-> terraform init 
+
+> terraform init
+
 > terraform plan
+
 > terraform apply -auto-approve
 
 
@@ -47,8 +59,11 @@ Create multi VPCs with EC2 - and use Transit gateways to connection
 # Craete Transit Gateways
 
 > cd transit_gateway
+
 > terraform init 
+
 > terraform plan
+
 > terraform apply -auto-approve
 
 
