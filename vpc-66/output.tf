@@ -55,22 +55,22 @@ output az_private {
   value       = var.availability_zones_private
 }
 
-output aws_route_table-tgw66rtb-id {
+output aws_route_table_tgw66rtb_id {
   description = "aws_route_table.tgw66rtb.id"
   value       = aws_route_table.tgw66rtb.id
 }
 
 ################ New OutPut ###############
 
-output aws_internet_gateway-tgw66igw {
+output aws_internet_gateway_tgw66igw {
   description = "aws_internet_gateway.tgw66igw"
-  value       = aws_internet_gateway.tgw66igw
+  value       = aws_internet_gateway.tgw66igw.id
 }
 
 
-output aws_security_group-tgw66sg {
+output aws_security_group_tgw66sg {
   description = "aws_security_group.tgw66sg"
-  value       = aws_security_group.tgw66sg
+  value       = aws_security_group.tgw66sg.id
 }
 
 
