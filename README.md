@@ -3,7 +3,7 @@ Create multi VPCs with EC2 - and use Transit gateways to connection
 
 > git clone https://github.com/basemelgabry/aws-vpcs-transit-gateways.git
 
-## Ceate VPCs
+## Create VPCs
 # Create Vpc "33"
 
 > cd vpc-33
@@ -32,7 +32,7 @@ Create multi VPCs with EC2 - and use Transit gateways to connection
 - VPC – RT – SG – IGW - 2 SUPNETS (different AZ)
 - terraform.tfstate in backend "s3"
 
-## Ceate EC2s
+## Create EC2s
 # Create EC2 "33"
 
 > cd ec2-33
