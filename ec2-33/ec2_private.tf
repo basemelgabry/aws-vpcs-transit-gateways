@@ -7,7 +7,7 @@ resource "aws_instance" "ec2_tgw33_private"{                          # hardcode
 
 
   key_name = "${var.key_name}"
-  associate_public_ip_address = var.enable_public_ip               # variable
+  #associate_public_ip_address = var.enable_public_ip               #  # Private
 
   provisioner "local-exec" {
         command = "echo ${self.public_ip} > public.ip_private.txt"   
